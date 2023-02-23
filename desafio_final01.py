@@ -1,3 +1,5 @@
+import processalista
+
 print('Questao 01\n ')
 
 nomes = ['Maria', 'Julieta', 'Fernando', 'Cristiano',
@@ -51,3 +53,5 @@ def area(r, pi): return pi * (r ** 2)
 
 
 print(area(8, 3.14))
+
+print('\nQuestao 05\n ')
