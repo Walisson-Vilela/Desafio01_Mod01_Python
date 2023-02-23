@@ -18,6 +18,8 @@ print(nomes)
 
 print('\nQuestao 03\n ')
 
+# Função Implicita
+
 
 def areaCirculo(r, pi):
     area = pi * (r ** 2)
@@ -25,3 +27,17 @@ def areaCirculo(r, pi):
 
 
 print(areaCirculo(8, 3.14))
+
+# Funcao Expicita
+
+r = 8
+pi = 3.14
+area = 0
+
+
+def areaCirculo_expicita():
+    area = pi * (r ** 2)
+    return area
+
+
+print(areaCirculo_expicita())
