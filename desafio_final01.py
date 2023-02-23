@@ -41,3 +41,13 @@ def areaCirculo_expicita():
 
 
 print(areaCirculo_expicita())
+
+print('\nQuestao 04\n ')
+
+# area = lambda r,pi: pi * (r ** 2)
+
+
+def area(r, pi): return pi * (r ** 2)
+
+
+print(area(8, 3.14))
