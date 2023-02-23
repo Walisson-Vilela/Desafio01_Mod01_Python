@@ -7,9 +7,6 @@ Atividade 01. Execute e analise a saída do seguinte código no Google Colab1
 Atividade 02. Reescreva o código da Atividade 01 utilizando o conceito de 
 compreensão de dicionários
 
-Atividade 02. Reescreva o código da Atividade 01 utilizando o conceito de 
-compreensão de dicionários
-
 Atividade 04. Reescreva a função area da atividade 3, utilizando o conceito de 
 funções anônimas (funções lambdas).
 
