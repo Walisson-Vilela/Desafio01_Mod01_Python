@@ -1,5 +1,6 @@
 import processalista
 
+
 # print('Questao 01\n ')
 
 # nomes = ['Maria', 'Julieta', 'Fernando', 'Cristiano',
@@ -54,8 +55,24 @@ import processalista
 
 # print(area(8, 3.14))
 
-print('\nQuestao 05\n ')
-lista = [3, 5, 9, 11, 12]
+# print('\nQuestao 05\n ')
+# lista = [3, 5, 9, 11, 12]
 
-print(processalista.maior_impar(lista))
-print(processalista.menor_impar(lista))
+# print(processalista.maior_impar(lista))
+# print(processalista.menor_impar(lista))
+
+print('\nQuestao 06\n ')
+
+cardiologista = {'terca', 'quarta'}
+ortopedista = {'terca', 'quinta'}
+dermatologista = {'segunda', 'quarta', 'sexta'}
+neurologista = {'terca', 'quinta', 'sexta'}
+psiquiatra = {'segunda', 'quarta', 'sexta'}
+
+
+def disp_dois_especialistas(medico01, medico02):
+    print("hello")
+
+
+def disp_tres_especialistas(medico01, medico02, medico03):
+    print("hello")
