@@ -69,10 +69,21 @@ dermatologista = {'segunda', 'quarta', 'sexta'}
 neurologista = {'terca', 'quinta', 'sexta'}
 psiquiatra = {'segunda', 'quarta', 'sexta'}
 
+dias = (int(input("Informe se deseja duas(2) consultas, ou tres(3) na semana: ")))
 
-def disp_dois_especialistas(medico01, medico02):
-    print("hello")
+if(dias == 2):
+    def disp_dois_especialistas(medico01, medico02):
+        intersectionAB = (medico01 & medico02)
+        return intersectionAB
+    print(disp_dois_especialistas(ortopedista, neurologista))
+elif(dias == 3):
+    def disp_tres_especialistas(medico01, medico02, medico03):
+        intersectionCDE = (medico01 & medico02) & (medico01 & medico03) & (medico03 & medico02)
+        return intersectionCDE
+    print(disp_tres_especialistas(dermatologista,neurologista,psiquiatra))
 
 
-def disp_tres_especialistas(medico01, medico02, medico03):
-    print("hello")
+
+
+
+
